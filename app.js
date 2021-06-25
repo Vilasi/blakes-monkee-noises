@@ -2,8 +2,8 @@ const monkeeList = document.querySelector('.monkee-noises-list');
 
 const monkeeNoisesArray = [];
 
-for (let i = 0; i < 1; i++) {
-  monkeeNoisesArray.push(1);
+for (let i = 1; i < 3; i++) {
+  monkeeNoisesArray.push(i);
 }
 
 monkeeList.innerHTML = '';
