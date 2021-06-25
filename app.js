@@ -3,7 +3,8 @@ const playAll = document.querySelector('.btn');
 
 const monkeeNoisesArray = [];
 
-for (let i = 1; i < 3; i++) {
+// numbers loop for use in the <li> generating script
+for (let i = 1; i < 4; i++) {
   monkeeNoisesArray.push(i);
 }
 
