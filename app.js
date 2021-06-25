@@ -4,7 +4,7 @@ const playAll = document.querySelector('.btn');
 const monkeeNoisesArray = [];
 
 // numbers loop for use in the <li> generating script
-for (let i = 1; i < 4; i++) {
+for (let i = 1; i < 5; i++) {
   monkeeNoisesArray.push(i);
 }
 
